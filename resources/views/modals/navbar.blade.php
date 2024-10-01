@@ -21,11 +21,11 @@
             <li><a href="/#home"
                     class="text-white tracking-wide font-medium transition-colors hover:text-gold">Beranda</a></li>
 
-            <li><a href="#services"
+            <li><a href="/#services"
                     class="text-white tracking-wide font-medium transition-colors hover:text-gold">Produk &
                     layanan</a></li>
 
-            <li><a href="#aboutus"
+            <li><a href="/#aboutus"
                     class="text-white tracking-wide font-medium transition-colors hover:text-gold">Tentang
                     kami</a></li>
 
