@@ -52,7 +52,7 @@
                             </div>
 
                             <!-- Right Side -->
-                            <div class="flex flex-col gap-8 md:w-1/2">
+                            <div class="flex flex-col gap-16 md:w-1/2">
                                 <!-- Produk 1 -->
                                 <div class="flex flex-col gap-2">
                                     <div class="flex items-center gap-3">
@@ -63,8 +63,9 @@
                                         <h4 class="text-white font-semibold">IT Infrastruktur</h4>
                                     </div>
                                     <p class="text-gray-400 text-start">
-                                        Layanan kami mencakup pengadaan, instalasi, pengembangan, pengamanan, dan
-                                        integrasi infrastruktur IT.
+                                        Layanan kami mencakup proses pengadaan, instalasi,
+                                        mengembangkan, mengamankan, dan mengintegrasikan
+                                        infrastruktur IT antara lain LAN, fiber optic, server, router dll.
                                     </p>
 
                                 </div>
@@ -79,8 +80,9 @@
                                         <h4 class="text-white font-semibold">IT Outsourcing</h4>
                                     </div>
                                     <p class="text-gray-400 text-start">
-                                        Pengelolaan sistem TI pelanggan meliputi infrastruktur, jaringan, keamanan, dan
-                                        aplikasi.
+                                        Layanan kami mencakup pengelolaan seluruh atau sebagian
+                                        sistem teknologi informasi (infrastruktur, jaringan, keamanan, dan
+                                        aplikasi) milik pelanggan.
                                     </p>
 
                                 </div>
@@ -95,8 +97,8 @@
                                         <h4 class="text-white font-semibold">IT Konsultan</h4>
                                     </div>
                                     <p class="text-gray-400 text-start">
-                                        Konsultasi untuk tata kelola strategi TI, desain aplikasi, infrastruktur,
-                                        keamanan, dan jaringan.
+                                        Layanan kami mengcakup konsultasi tata kelola strategi TI, desain
+                                        aplikasi, infrastruktur, keamanan (cyber security), dan Jaringan.
                                     </p>
 
                                 </div>
@@ -108,14 +110,15 @@
                             class="flex flex-col md:flex-row p-10 space-y-6 md:space-y-0 md:space-x-6 min-h-[500px]">
                             <!-- Left Side -->
                             <div class="flex flex-col gap-6 md:w-1/2">
-                                <img src="/solusiPerbankan.jpg" class="md:w-4/6 w-full h-auto rounded-full" alt="Banking Solutions">
+                                <img src="/solusiPerbankan.jpg" class="md:w-4/6 w-full h-auto rounded-full"
+                                    alt="Banking Solutions">
                                 <p class="text-gray-400 text-start">
                                     Layanan kami mencakup solusi perbankan yang mendukung operasional BPR dan koperasi.
                                 </p>
                             </div>
 
                             <!-- Right Side -->
-                            <div class="flex flex-col gap-8 md:w-1/2">
+                            <div class="flex flex-col gap-16 md:w-1/2">
                                 <!-- Produk 1 -->
                                 <div class="flex flex-col gap-2">
                                     <div class="flex items-center gap-3">
@@ -126,7 +129,8 @@
                                         <h4 class="text-white font-semibold">Core Banking System</h4>
                                     </div>
                                     <p class="text-gray-400 text-start">
-                                        Mendukung operasional BPR dan koperasi.
+                                        Layanan kami yang akan mendukung operasional BPR maupun
+                                        koperasi
                                     </p>
                                     <a href="/catalog"
                                         class="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded-lg text-sm font-semibold mt-2">
@@ -144,7 +148,8 @@
                                         <h4 class="text-white font-semibold">Digital Banking</h4>
                                     </div>
                                     <p class="text-gray-400 text-start">
-                                        Solusi digital banking yang membantu pelaporan operasional.
+                                        Layanan kami yang akan mendukung operasional maupun
+                                        pelaporan yang dibutuhkan oleh BPR
                                     </p>
                                     <a href="/catalog"
                                         class="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded-lg text-sm font-semibold mt-2">
@@ -162,7 +167,9 @@
                                         <h4 class="text-white font-semibold">Peralatan Perbankan</h4>
                                     </div>
                                     <p class="text-gray-400 text-start">
-                                        Penyediaan peralatan perbankan terintegrasi.
+                                        Layanan yang menyediakan peralatan perbankan untuk
+                                        diimplementasikan sebagai solusi mandiri atau terintegrasi dengan
+                                        system perbankan
                                     </p>
                                     <a href="/catalog"
                                         class="bg-gray-500 hover:bg-gray-600 text-white py-2 px-4 rounded-lg text-sm font-semibold mt-2">
@@ -177,14 +184,15 @@
                             class="flex flex-col md:flex-row p-10 space-y-6 md:space-y-0 md:space-x-6 min-h-[500px]">
                             <!-- Left Side -->
                             <div class="flex flex-col gap-6 md:w-1/2">
-                                <img src="/solusiEdu.jpg" class="md:w-4/6 w-full h-auto rounded-full" alt="Educational Solutions">
+                                <img src="/solusiEdu.jpg" class="md:w-4/6 w-full h-auto rounded-full"
+                                    alt="Educational Solutions">
                                 <p class="text-gray-400 text-start">
                                     Layanan edukasi terpadu, terintegrasi dengan platform pembelajaran digital.
                                 </p>
                             </div>
 
                             <!-- Right Side -->
-                            <div class="flex flex-col gap-8 md:w-1/2">
+                            <div class="flex flex-col gap-16 md:w-1/2">
                                 <!-- Produk 1 -->
                                 <div class="flex flex-col gap-2">
                                     <div class="flex items-center gap-3">
@@ -195,8 +203,11 @@
                                         <h4 class="text-white font-semibold">LMS Terpadu</h4>
                                     </div>
                                     <p class="text-gray-400 text-start">
-                                        Platform pembelajaran digital terintegrasi dengan SIAKAD dan platform
-                                        pembelajaran lainnya.
+                                        Layanan platform digital yang membantu Pelaksanaan Proses
+                                        Pembelajaran Secara Lebih Efektif dan Interaktif. Terintegrasi
+                                        dengan SIAKAD, dan platform pembelajaran sync seperti zoom dan
+                                        google meet, sehingga memudahkan proses Administrasi Input dan
+                                        Enroll data dilakukan secara otomatis dari System yang Lain
                                     </p>
 
                                 </div>
@@ -211,7 +222,8 @@
                                         <h4 class="text-white font-semibold">Smart Classroom</h4>
                                     </div>
                                     <p class="text-gray-400 text-start">
-                                        Kelas berbasis digital untuk pembelajaran yang lebih interaktif.
+                                        Layanan kelas berbasis digital yang terintegrasi dengan platform
+                                        pembelajaran
                                     </p>
 
                                 </div>
