@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply font-raleway;
+}
+
+body {
+    @apply bg-blk text-white;
+}
+
+.active {
+    @apply bg-yellow-600 hover:bg-yellow-500;
+}
+
+.not-active {
+    @apply bg-zinc-900 hover:bg-zinc-800;
+}
+
+/* Animasi untuk geser ke kiri */
+.carousel-slide-left {
+    transform: translateX(-100%);
+    transition: transform 0.7s ease-in-out;
+}
+
+/* Animasi untuk geser ke kanan */
+.carousel-slide-right {
+    transform: translateX(100%);
+    transition: transform 0.7s ease-in-out;
+}
+
+/* Untuk item aktif */
+.carousel-active {
+    transform: translateX(0);
+    transition: transform 0.7s ease-in-out;
+}
+
