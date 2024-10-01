@@ -18,7 +18,7 @@
 
         <!-- Navigation Links (hidden on mobile, visible on desktop) -->
         <ul class="hidden  lg:flex space-x-6">
-            <li><a href="#home"
+            <li><a href="/#home"
                     class="text-white tracking-wide font-medium transition-colors hover:text-gold">Beranda</a></li>
 
             <li><a href="#services"
