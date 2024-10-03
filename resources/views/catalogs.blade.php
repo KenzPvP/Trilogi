@@ -16,7 +16,7 @@
         @include('modals.navbar')
         @include('Catalog.catalogs_page')
         @include('Catalog.catalogs2_page')
-
+        @include('sections.footer_section')
     </main>
 
 </body>
