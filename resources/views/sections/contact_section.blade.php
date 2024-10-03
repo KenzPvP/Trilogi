@@ -11,15 +11,17 @@
     @vite('resources/css/app.css')
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-
+    
 <body>
 
     <div class="mt-6 max-w-6xl max-lg:max-w-3xl mx-auto bg-zinc-800 rounded-lg">
 
-        <div class="grid lg:grid-cols-2 items-center gap-14 sm:p-8 p-4 font-[sans-serif]">
+        <div class="flex flex-col items-center gap-14 sm:p-8 p-4 font-[sans-serif]">
             <div>
                 <h1 class="text-4xl font-bold text-white">Hubungi kami</h1>
-                <p class="text-sm text-gray-300 mt-4 leading-relaxed">Kami senang mendengar dari Anda! Baik itu pertanyaan, masukan, atau sekadar ingin menyapa, jangan ragu untuk menghubungi kami. Anda dapat menghubungi kami melalui formulir di bawah ini, atau gunakan detail berikut: </p>
+                <p class="text-sm text-gray-300 mt-4 leading-relaxed">Kami senang mendengar dari Anda! Baik itu
+                    pertanyaan, masukan, atau sekadar ingin menyapa, jangan ragu untuk menghubungi kami. Anda dapat
+                    menghubungi kami melalui formulir di bawah ini, atau gunakan detail berikut: </p>
 
                 <ul class="mt-12 space-y-8">
                     <li class="flex items-center">
@@ -34,17 +36,25 @@
                         </a>
                     </li>
                     <li class="flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' viewBox="0 0 482.6 482.6">
-                            <path d="M98.339 320.8c47.6 56.9 104.9 101.7 170.3 133.4 24.9 11.8 58.2 25.8 95.3 28.2 2.3.1 4.5.2 6.8.2 24.9 0 44.9-8.6 61.2-26.3.1-.1.3-.3.4-.5 5.8-7 12.4-13.3 19.3-20 4.7-4.5 9.5-9.2 14.1-14 21.3-22.2 21.3-50.4-.2-71.9l-60.1-60.1c-10.2-10.6-22.4-16.2-35.2-16.2-12.8 0-25.1 5.6-35.6 16.1l-35.8 35.8c-3.3-1.9-6.7-3.6-9.9-5.2-4-2-7.7-3.9-11-6-32.6-20.7-62.2-47.7-90.5-82.4-14.3-18.1-23.9-33.3-30.6-48.8 9.4-8.5 18.2-17.4 26.7-26.1 3-3.1 6.1-6.2 9.2-9.3 10.8-10.8 16.6-23.3 16.6-36s-5.7-25.2-16.6-36l-29.8-29.8c-3.5-3.5-6.8-6.9-10.2-10.4-6.6-6.8-13.5-13.8-20.3-20.1-10.3-10.1-22.4-15.4-35.2-15.4-12.7 0-24.9 5.3-35.6 15.5l-37.4 37.4c-13.6 13.6-21.3 30.1-22.9 49.2-1.9 23.9 2.5 49.3 13.9 80 17.5 47.5 43.9 91.6 83.1 138.7zm-72.6-216.6c1.2-13.3 6.3-24.4 15.9-34l37.2-37.2c5.8-5.6 12.2-8.5 18.4-8.5 6.1 0 12.3 2.9 18 8.7 6.7 6.2 13 12.7 19.8 19.6 3.4 3.5 6.9 7 10.4 10.6l29.8 29.8c6.2 6.2 9.4 12.5 9.4 18.7s-3.2 12.5-9.4 18.7c-3.1 3.1-6.2 6.3-9.3 9.4-9.3 9.4-18 18.3-27.6 26.8l-.5.5c-8.3 8.3-7 16.2-5 22.2.1.3.2.5.3.8 7.7 18.5 18.4 36.1 35.1 57.1 30 37 61.6 65.7 96.4 87.8 4.3 2.8 8.9 5 13.2 7.2 4 2 7.7 3.9 11 6 .4.2.7.4 1.1.6 3.3 1.7 6.5 2.5 9.7 2.5 8 0 13.2-5.1 14.9-6.8l37.4-37.4c5.8-5.8 12.1-8.9 18.3-8.9 7.6 0 13.8 4.7 17.7 8.9l60.3 60.2c12 12 11.9 25-.3 37.7-4.2 4.5-8.6 8.8-13.3 13.3-7 6.8-14.3 13.8-20.9 21.7-11.5 12.4-25.2 18.2-42.9 18.2-1.7 0-3.5-.1-5.2-.2-32.8-2.1-63.3-14.9-86.2-25.8-62.2-30.1-116.8-72.8-162.1-127-37.3-44.9-62.4-86.7-79-131.5-10.3-27.5-14.2-49.6-12.6-69.7z" data-original="#000000"></path>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff'
+                            viewBox="0 0 482.6 482.6">
+                            <path
+                                d="M98.339 320.8c47.6 56.9 104.9 101.7 170.3 133.4 24.9 11.8 58.2 25.8 95.3 28.2 2.3.1 4.5.2 6.8.2 24.9 0 44.9-8.6 61.2-26.3.1-.1.3-.3.4-.5 5.8-7 12.4-13.3 19.3-20 4.7-4.5 9.5-9.2 14.1-14 21.3-22.2 21.3-50.4-.2-71.9l-60.1-60.1c-10.2-10.6-22.4-16.2-35.2-16.2-12.8 0-25.1 5.6-35.6 16.1l-35.8 35.8c-3.3-1.9-6.7-3.6-9.9-5.2-4-2-7.7-3.9-11-6-32.6-20.7-62.2-47.7-90.5-82.4-14.3-18.1-23.9-33.3-30.6-48.8 9.4-8.5 18.2-17.4 26.7-26.1 3-3.1 6.1-6.2 9.2-9.3 10.8-10.8 16.6-23.3 16.6-36s-5.7-25.2-16.6-36l-29.8-29.8c-3.5-3.5-6.8-6.9-10.2-10.4-6.6-6.8-13.5-13.8-20.3-20.1-10.3-10.1-22.4-15.4-35.2-15.4-12.7 0-24.9 5.3-35.6 15.5l-37.4 37.4c-13.6 13.6-21.3 30.1-22.9 49.2-1.9 23.9 2.5 49.3 13.9 80 17.5 47.5 43.9 91.6 83.1 138.7zm-72.6-216.6c1.2-13.3 6.3-24.4 15.9-34l37.2-37.2c5.8-5.6 12.2-8.5 18.4-8.5 6.1 0 12.3 2.9 18 8.7 6.7 6.2 13 12.7 19.8 19.6 3.4 3.5 6.9 7 10.4 10.6l29.8 29.8c6.2 6.2 9.4 12.5 9.4 18.7s-3.2 12.5-9.4 18.7c-3.1 3.1-6.2 6.3-9.3 9.4-9.3 9.4-18 18.3-27.6 26.8l-.5.5c-8.3 8.3-7 16.2-5 22.2.1.3.2.5.3.8 7.7 18.5 18.4 36.1 35.1 57.1 30 37 61.6 65.7 96.4 87.8 4.3 2.8 8.9 5 13.2 7.2 4 2 7.7 3.9 11 6 .4.2.7.4 1.1.6 3.3 1.7 6.5 2.5 9.7 2.5 8 0 13.2-5.1 14.9-6.8l37.4-37.4c5.8-5.8 12.1-8.9 18.3-8.9 7.6 0 13.8 4.7 17.7 8.9l60.3 60.2c12 12 11.9 25-.3 37.7-4.2 4.5-8.6 8.8-13.3 13.3-7 6.8-14.3 13.8-20.9 21.7-11.5 12.4-25.2 18.2-42.9 18.2-1.7 0-3.5-.1-5.2-.2-32.8-2.1-63.3-14.9-86.2-25.8-62.2-30.1-116.8-72.8-162.1-127-37.3-44.9-62.4-86.7-79-131.5-10.3-27.5-14.2-49.6-12.6-69.7z"
+                                data-original="#000000"></path>
                         </svg>
                         <a class="text-white text-sm font-raleway ml-4">
                             031-8202042 atau 0822888717
                         </a>
                     </li>
                     <li class="flex items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' viewBox="0 0 368.16 368.16">
-                            <path d="M184.08 0c-74.992 0-136 61.008-136 136 0 24.688 11.072 51.24 11.536 52.36 3.576 8.488 10.632 21.672 15.72 29.4l93.248 141.288c3.816 5.792 9.464 9.112 15.496 9.112s11.68-3.32 15.496-9.104l93.256-141.296c5.096-7.728 12.144-20.912 15.72-29.4.464-1.112 11.528-27.664 11.528-52.36 0-74.992-61.008-136-136-136zM293.8 182.152c-3.192 7.608-9.76 19.872-14.328 26.8l-93.256 141.296c-1.84 2.792-2.424 2.792-4.264 0L88.696 208.952c-4.568-6.928-11.136-19.2-14.328-26.808-.136-.328-10.288-24.768-10.288-46.144 0-66.168 53.832-120 120-120s120 53.832 120 120c0 21.408-10.176 45.912-10.28 46.152z" data-original="#000000"></path>
-                            <path d="M184.08 64.008c-39.704 0-72 32.304-72 72s32.296 72 72 72 72-32.304 72-72-32.296-72-72-72zm0 128c-30.872 0-56-25.12-56-56s25.128-56 56-56 56 25.12 56 56-25.128 56-56 56z" data-original="#000000"></path>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff'
+                            viewBox="0 0 368.16 368.16">
+                            <path
+                                d="M184.08 0c-74.992 0-136 61.008-136 136 0 24.688 11.072 51.24 11.536 52.36 3.576 8.488 10.632 21.672 15.72 29.4l93.248 141.288c3.816 5.792 9.464 9.112 15.496 9.112s11.68-3.32 15.496-9.104l93.256-141.296c5.096-7.728 12.144-20.912 15.72-29.4.464-1.112 11.528-27.664 11.528-52.36 0-74.992-61.008-136-136-136zM293.8 182.152c-3.192 7.608-9.76 19.872-14.328 26.8l-93.256 141.296c-1.84 2.792-2.424 2.792-4.264 0L88.696 208.952c-4.568-6.928-11.136-19.2-14.328-26.808-.136-.328-10.288-24.768-10.288-46.144 0-66.168 53.832-120 120-120s120 53.832 120 120c0 21.408-10.176 45.912-10.28 46.152z"
+                                data-original="#000000"></path>
+                            <path
+                                d="M184.08 64.008c-39.704 0-72 32.304-72 72s32.296 72 72 72 72-32.304 72-72-32.296-72-72-72zm0 128c-30.872 0-56-25.12-56-56s25.128-56 56-56 56 25.12 56 56-25.128 56-56 56z"
+                                data-original="#000000"></path>
                         </svg>
                         <a href="javascript:void(0)" class="text-white text-sm ml-4">
                             Jl. Ahmad Yani No.88, Ketintang, Kec. Gayungan, Surabaya, Jawa Timur 60231
@@ -53,7 +63,8 @@
                 </ul>
 
                 <ul class="flex mt-12 space-x-4">
-                    <li class="bg-gold hover:bg-amber-400 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                    <li
+                        class="bg-gold hover:bg-amber-400 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                         <a href="javascript:void(0)">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
                                 viewBox="0 0 24 24">
@@ -63,7 +74,8 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="bg-gold hover:bg-amber-400 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                    <li
+                        class="bg-gold hover:bg-amber-400 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                         <a href="javascript:void(0)">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
                                 viewBox="0 0 511 512">
@@ -73,7 +85,8 @@
                             </svg>
                         </a>
                     </li>
-                    <li class="bg-gold hover:bg-amber-400 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                    <li
+                        class="bg-gold hover:bg-amber-400 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                         <a href="javascript:void(0)">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
                                 viewBox="0 0 24 24">
@@ -86,31 +99,56 @@
                 </ul>
             </div>
 
-            <div class="bg-gray-100 p-6 rounded-lg">
-                <p class="text-sm font-semibold text-gray-800">Isi form</p>
+            <div class="flex flex-col md:flex-row p-20 gap-4">
 
+                <!-- WhatsApp Card -->
+                <div
+                    class="bg-zinc-800 hover:shadow-[0_8px_15px_-2px_rgba(255,255,0,0.75),0_4px_10px_-3px_rgba(255,255,0,0.75)]
+                    overflow-hidden border border-gray-300 transition-shadow duration-200  flex items-center p-6">
 
+                    <div class="flex items-center duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 24 24"><path fill="black" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01m-7.01 15.24c-1.48 0-2.93-.4-4.2-1.15l-.3-.18l-3.12.82l.83-3.04l-.2-.31a8.26 8.26 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24c2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.02 4.54-3.68 8.23-8.22 8.23m4.52-6.16c-.25-.12-1.47-.72-1.69-.81c-.23-.08-.39-.12-.56.12c-.17.25-.64.81-.78.97c-.14.17-.29.19-.54.06c-.25-.12-1.05-.39-1.99-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.14-.25-.02-.38.11-.51c.11-.11.25-.29.37-.43s.17-.25.25-.41c.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31c-.22.25-.86.85-.86 2.07s.89 2.4 1.01 2.56c.12.17 1.75 2.67 4.23 3.74c.59.26 1.05.41 1.41.52c.59.19 1.13.16 1.56.1c.48-.07 1.47-.6 1.67-1.18c.21-.58.21-1.07.14-1.18s-.22-.16-.47-.28"/></svg>
+                        <div class="ml-4">
+                            <h2 class="text-2xl font-bold text-white duration-200">WhatsApp</h2>
+                            <p class="mt-2 text-gray-300">+1 234 567 890</p>
+                        </div>
+                    </div>
+                </div>
 
-                <form class="mt-8 space-y-4">
-                    <input type='text' placeholder='Name'
-                        class="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-[#a91079]" />
-                    <input type='email' placeholder='Email'
-                        class="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-[#a91079]" />
-                    <input type='text' placeholder='Subject'
-                        class="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-[#a91079]" />
-                    <textarea placeholder='Message' rows="6"
-                        class="w-full rounded-lg px-4 text-gray-800 text-sm pt-3 outline-[#a91079]"></textarea>
-                    <button type='button'
-                        class="text-white bg-gold hover:bg-amber-400 tracking-wide rounded-lg text-sm px-4 py-3 flex items-center justify-center w-full !mt-6">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' class="mr-2" viewBox="0 0 548.244 548.244">
-                            <path fill-rule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clip-rule="evenodd" data-original="#000000" />
-                        </svg>
-                        Send Message
-                    </button>
-                </form>
+                <!-- Facebook Card -->
+                <div
+                    class="bg-zinc-800 hover:shadow-[0_8px_15px_-2px_rgba(255,255,0,0.75),0_4px_10px_-3px_rgba(255,255,0,0.75)]
+                    overflow-hidden border border-gray-300 transition-shadow duration-200  flex items-center p-6">
+
+                    <div class="flex items-center duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 1000 1000"><path fill="black" d="M182.594 0C81.445 0 0 81.445 0 182.594v634.813c0 101.149 81.445 182.594 182.594 182.594h344.063V609.063H423.282v-140.75h103.375v-120.25c0-94.475 61.079-181.219 201.781-181.219c56.968 0 99.094 5.469 99.094 5.469l-3.313 131.438s-42.963-.406-89.844-.406c-50.739 0-58.875 23.378-58.875 62.188v102.781h152.75l-6.656 140.75H675.5v390.938h141.906c101.149 0 182.594-81.445 182.594-182.594V182.595C1000 81.446 918.555.001 817.406.001H182.593z"/></svg>
+                        <div class="ml-4">
+                            <h2 class="text-2xl font-bold text-white duration-200">Facebook</h2>
+                            <p class="mt-2 text-gray-300">YourFacebookName</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instagram Card -->
+                <div
+                    class="bg-zinc-800 hover:shadow-[0_8px_15px_-2px_rgba(255,255,0,0.75),0_4px_10px_-3px_rgba(255,255,0,0.75)]
+                    overflow-hidden border border-gray-300 transition-shadow duration-200  flex items-center p-6">
+
+                    <div class="flex items-center duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 24 24"><path fill="black" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/></svg>
+                        <div class="ml-4">
+                            <h2 class="text-2xl font-bold text-white duration-200">Instagram</h2>
+                            <p class="mt-2 text-gray-300">@YourInstagramHandle</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </div>
+
+    @include('sections.footer_section')
 </body>
 
 </html>
