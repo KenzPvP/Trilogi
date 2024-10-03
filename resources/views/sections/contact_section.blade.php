@@ -91,16 +91,16 @@
 
 
 
-                <form class="mt-8 space-y-4">
-                    <input type='text' placeholder='Name'
+                <form class="mt-8 space-y-4" id="contactForm">
+                    <input type='text' id='name' placeholder='Name'
                         class="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-[#a91079]" />
-                    <input type='email' placeholder='Email'
+                    <input type='email' id='email' placeholder='Email'
                         class="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-[#a91079]" />
-                    <input type='text' placeholder='Subject'
+                    <input type='text' id='subject' placeholder='Subject'
                         class="w-full rounded-lg py-3 px-4 text-gray-800 text-sm outline-[#a91079]" />
-                    <textarea placeholder='Message' rows="6"
+                    <textarea id='message' placeholder='Message' rows="6"
                         class="w-full rounded-lg px-4 text-gray-800 text-sm pt-3 outline-[#a91079]"></textarea>
-                    <button type='button'
+                    <button type='button' onclick="sendMessage()"
                         class="text-white bg-gold hover:bg-amber-400 tracking-wide rounded-lg text-sm px-4 py-3 flex items-center justify-center w-full !mt-6">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' class="mr-2" viewBox="0 0 548.244 548.244">
                             <path fill-rule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clip-rule="evenodd" data-original="#000000" />
@@ -108,6 +108,22 @@
                         Send Message
                     </button>
                 </form>
+                
+                <script>
+                    function sendMessage() {
+                        const name = document.getElementById('name').value;
+                        const email = document.getElementById('email').value;
+                        const subject = document.getElementById('subject').value;
+                        const message = document.getElementById('message').value;
+                
+                        const templateMessage = `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`;
+                        const encodedMessage = encodeURIComponent(templateMessage);
+                        const whatsappURL = `https://wa.me/+6285772462603?text=${encodedMessage}`;
+                
+                        window.open(whatsappURL, '_blank');
+                    }
+                </script>
+                
             </div>
         </div>
     </div>
