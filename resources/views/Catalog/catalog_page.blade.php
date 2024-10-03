@@ -35,6 +35,9 @@
             <!-- Product Info -->
             <div class="md:w-1/2 md:ml-8 mt-8 md:mt-0">
                 <h2 class="text-3xl font-semibold text-gray-50">CASHQUIP HL-3300</h2>
+                <p class="text-gray-300 mt-2">
+                    3.950.000 
+                </p>
 
                 <div class="mt-4">
                     <h3 class="text-lg font-semibold text-gray-800">Description</h3>

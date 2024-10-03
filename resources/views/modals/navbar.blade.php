@@ -17,24 +17,30 @@
         </div>
 
         <!-- Navigation Links (hidden on mobile, visible on desktop) -->
-        <ul class="hidden  lg:flex space-x-6">
-            <li><a href="#home"
+        <ul class="hidden lg:flex space-x-6">
+            <li><a href="/#home"
                     class="text-white tracking-wide font-medium transition-colors hover:text-gold">Beranda</a></li>
 
-            <li><a href="#services"
-                    class="text-white tracking-wide font-medium transition-colors hover:text-gold">Produk &
-                    layanan</a></li>
+            <li><a href="/#services"
+                    class="text-white tracking-wide font-medium transition-colors hover:text-gold">Produk & layanan</a></li>
 
-            <li><a href="#aboutus"
-                    class="text-white tracking-wide font-medium transition-colors hover:text-gold">Tentang
-                    kami</a></li>
+            <li><a href="/#aboutus"
+                    class="text-white tracking-wide font-medium transition-colors hover:text-gold">Tentang kami</a></li>
 
+            <!-- Dropdown Menu for Catalog -->
+            <li class="relative group">
+                <a href="/catalogs" class="text-white tracking-wide font-medium transition-colors hover:text-gold">Catalog</a>
+                <ul class="absolute left-0 mt-2 w-48 bg-zinc-800 rounded-md opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
+                    <li><a href="/catalogs1" class="block px-4 py-2 text-white hover:bg-zinc-700 hover:text-gold">Catalog 1</a></li>
+                    <li><a href="/catalogs2" class="block px-4 py-2 text-white hover:bg-zinc-700 hover:text-gold">Catalog 2</a></li>
+                    <li><a href="#catalog3" class="block px-4 py-2 text-white hover:bg-zinc-700 hover:text-gold">Catalog 3</a></li>
+                </ul>
+            </li>
         </ul>
 
         <a href="contact" class="hidden lg:block w-fit rounded-lg px-10 py-4 bg-gold hover:bg-yellow-600 font-semibold">
             Hubungi kami
         </a>
-
     </div>
 
     <!-- Drawer Menu (hidden by default) -->
@@ -52,6 +58,7 @@
         </button>
     </div>
 </nav>
+
 
 <script>
     const menuToggle = document.getElementById('menu-toggle');
