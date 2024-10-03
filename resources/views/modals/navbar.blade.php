@@ -1,5 +1,5 @@
-<nav class="z-[999] w-full fixed">
-    <div class="bg-zinc-800/35 backdrop-blur-xl container px-10 md:px-40 py-6 flex justify-between items-center">
+<nav id="navbar" class="z-[999] w-full fixed transition-all duration-300">
+    <div class="bg-transparent container px-10 md:px-40 py-6 flex justify-between items-center transition-all duration-300">
         <!-- Logo -->
         <div>
             <img src="trilogiBg.png" alt="YourCompany Logo" class="h-14">
@@ -59,11 +59,19 @@
     </div>
 </nav>
 
-
 <script>
+    const navbar = document.getElementById('navbar');
     const menuToggle = document.getElementById('menu-toggle');
     const menu = document.getElementById('menu');
     const closeMenu = document.getElementById('close-menu');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            navbar.classList.add('bg-zinc-800/75', 'backdrop-blur-xl', 'shadow-md');
+        } else {
+            navbar.classList.remove('bg-zinc-800/75', 'backdrop-blur-xl', 'shadow-md');
+        }
+    });
 
     menuToggle.addEventListener('click', () => {
         menu.classList.toggle('hidden');
