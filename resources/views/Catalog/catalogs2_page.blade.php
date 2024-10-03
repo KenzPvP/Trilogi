@@ -24,7 +24,7 @@
         <section class="bg-cover bg-center h-64"
             style="background-image: url('https://source.unsplash.com/random/1200x400');">
             <div class="flex items-center justify-center h-full bg-zinc-900">
-                <h1 class="text-white text-4xl font-bold">Catalog 2</h1>
+                <h1 class= "text-4xl font-bold">Catalog 2</h1>
             </div>
         </section>
 
@@ -37,16 +37,19 @@
                     <div
                         class="bg-zinc-800 hover:shadow-[0_8px_15px_-2px_rgba(255,255,0,0.75),0_4px_10px_-3px_rgba(255,255,0,0.75)]
                     overflow-hidden border border-gray-300 transition-shadow duration-200 hover:bg-white ">
-                        <img class="w-full h-48 object-cover" src="/contoh1.png" alt="Blog Image">
-                        <div class="p-6 hover:text-black duration-200">
-                            <h2 class="text-2xl font-bold">Blog Title</h2>
-                            <p class="mt-2">
-                                This is a short excerpt from the blog to give readers an idea of the content.
-                            </p>
-                            <div class="flex justify-between items-center mt-4">
-                                <a href="/article" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
-                                    More</a>
-                                <span class="text-gray-300 text-sm">September 13, 2024</span>
+
+                        <div class=" hover:text-black duration-200">
+                            <img class="w-full h-48 object-cover" src="/contoh1.png" alt="Blog Image">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold">Blog Title</h2>
+                                <p class="mt-2">
+                                    This is a short excerpt from the blog to give readers an idea of the content.
+                                </p>
+                                <div class="flex justify-between items-center mt-4">
+                                    <a href="/article" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
+                                        More</a>
+                                    <span class="text-gray-300 text-sm">September 13, 2024</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -55,17 +58,18 @@
                     <div
                         class="bg-zinc-800 hover:shadow-[0_8px_15px_-2px_rgba(255,255,0,0.75),0_4px_10px_-3px_rgba(255,255,0,0.75)]
             overflow-hidden border border-gray-300 transition-shadow duration-200 hover:bg-white ">
-                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200"
-                            alt="Blog Image">
-                        <div class="p-6 hover:text-black duration-200">
-                            <h2 class="text-2xl font-bold">Blog Title</h2>
-                            <p class="mt-2">
-                                This is a short excerpt from the blog to give readers an idea of the content.
-                            </p>
-                            <div class="flex justify-between items-center mt-4">
-                                <a href="#" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
-                                    More</a>
-                                <span class="text-gray-300 text-sm">September 13, 2024</span>
+                        <div class=" hover:text-black duration-200">
+                            <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold">Blog Title</h2>
+                                <p class="mt-2">
+                                    This is a short excerpt from the blog to give readers an idea of the content.
+                                </p>
+                                <div class="flex justify-between items-center mt-4">
+                                    <a href="/article" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
+                                        More</a>
+                                    <span class="text-gray-300 text-sm">September 13, 2024</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -74,17 +78,18 @@
                     <div
                         class="bg-zinc-800 hover:shadow-[0_8px_15px_-2px_rgba(255,255,0,0.75),0_4px_10px_-3px_rgba(255,255,0,0.75)]
             overflow-hidden border border-gray-300 transition-shadow duration-200 hover:bg-white ">
-                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200"
-                            alt="Blog Image">
-                        <div class="p-6 hover:text-black duration-200">
-                            <h2 class="text-2xl font-bold">Blog Title</h2>
-                            <p class="mt-2">
-                                This is a short excerpt from the blog to give readers an idea of the content.
-                            </p>
-                            <div class="flex justify-between items-center mt-4">
-                                <a href="#" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
-                                    More</a>
-                                <span class="text-gray-300 text-sm">September 13, 2024</span>
+                        <div class=" hover:text-black duration-200">
+                            <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold">Blog Title</h2>
+                                <p class="mt-2">
+                                    This is a short excerpt from the blog to give readers an idea of the content.
+                                </p>
+                                <div class="flex justify-between items-center mt-4">
+                                    <a href="/article" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
+                                        More</a>
+                                    <span class="text-gray-300 text-sm">September 13, 2024</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -93,17 +98,18 @@
                     <div
                         class="bg-zinc-800 hover:shadow-[0_8px_15px_-2px_rgba(255,255,0,0.75),0_4px_10px_-3px_rgba(255,255,0,0.75)]
             overflow-hidden border border-gray-300 transition-shadow duration-200 hover:bg-white ">
-                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200"
-                            alt="Blog Image">
-                        <div class="p-6 hover:text-black duration-200">
-                            <h2 class="text-2xl font-bold">Blog Title</h2>
-                            <p class="mt-2">
-                                This is a short excerpt from the blog to give readers an idea of the content.
-                            </p>
-                            <div class="flex justify-between items-center mt-4">
-                                <a href="#" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
-                                    More</a>
-                                <span class="text-gray-300 text-sm">September 13, 2024</span>
+                        <div class=" hover:text-black duration-200">
+                            <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold">Blog Title</h2>
+                                <p class="mt-2">
+                                    This is a short excerpt from the blog to give readers an idea of the content.
+                                </p>
+                                <div class="flex justify-between items-center mt-4">
+                                    <a href="/article" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
+                                        More</a>
+                                    <span class="text-gray-300 text-sm">September 13, 2024</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -112,17 +118,18 @@
                     <div
                         class="bg-zinc-800 hover:shadow-[0_8px_15px_-2px_rgba(255,255,0,0.75),0_4px_10px_-3px_rgba(255,255,0,0.75)]
             overflow-hidden border border-gray-300 transition-shadow duration-200 hover:bg-white ">
-                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200"
-                            alt="Blog Image">
-                        <div class="p-6 hover:text-black duration-200">
-                            <h2 class="text-2xl font-bold">Blog Title</h2>
-                            <p class="mt-2">
-                                This is a short excerpt from the blog to give readers an idea of the content.
-                            </p>
-                            <div class="flex justify-between items-center mt-4">
-                                <a href="#" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
-                                    More</a>
-                                <span class="text-gray-300 text-sm">September 13, 2024</span>
+                        <div class=" hover:text-black duration-200">
+                            <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold">Blog Title</h2>
+                                <p class="mt-2">
+                                    This is a short excerpt from the blog to give readers an idea of the content.
+                                </p>
+                                <div class="flex justify-between items-center mt-4">
+                                    <a href="/article" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
+                                        More</a>
+                                    <span class="text-gray-300 text-sm">September 13, 2024</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -131,17 +138,18 @@
                     <div
                         class="bg-zinc-800 hover:shadow-[0_8px_15px_-2px_rgba(255,255,0,0.75),0_4px_10px_-3px_rgba(255,255,0,0.75)]
             overflow-hidden border border-gray-300 transition-shadow duration-200 hover:bg-white ">
-                        <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200"
-                            alt="Blog Image">
-                        <div class="p-6 hover:text-black duration-200">
-                            <h2 class="text-2xl font-bold">Blog Title</h2>
-                            <p class="mt-2">
-                                This is a short excerpt from the blog to give readers an idea of the content.
-                            </p>
-                            <div class="flex justify-between items-center mt-4">
-                                <a href="#" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
-                                    More</a>
-                                <span class="text-gray-300 text-sm">September 13, 2024</span>
+                        <div class=" hover:text-black duration-200">
+                            <img class="w-full h-48 object-cover" src="https://via.placeholder.com/400x200">
+                            <div class="p-6">
+                                <h2 class="text-2xl font-bold">Blog Title</h2>
+                                <p class="mt-2">
+                                    This is a short excerpt from the blog to give readers an idea of the content.
+                                </p>
+                                <div class="flex justify-between items-center mt-4">
+                                    <a href="/article" class="text-yellow-500 hover:text-yellow-600 font-medium">Read
+                                        More</a>
+                                    <span class="text-gray-300 text-sm">September 13, 2024</span>
+                                </div>
                             </div>
                         </div>
                     </div>
