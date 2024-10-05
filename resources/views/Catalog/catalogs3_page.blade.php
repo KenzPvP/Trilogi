@@ -13,14 +13,18 @@
 @include('modals.navbar')
 
 <body class="font-family-karla flex flex-col gap-5 bg-zinc-800">
-     
+
+
+
+
+
     <div class="flex flex-col gap-5">
 
         <!-- Hero Section -->
         <section class="bg-cover bg-center h-64"
             style="background-image: url('https://source.unsplash.com/random/1200x400');">
             <div class="flex items-center justify-center h-full bg-zinc-900">
-                <h1 class= "text-4xl font-bold">Catalog 1</h1>
+                <h1 class= "text-4xl font-bold">Catalog 3</h1>
             </div>
         </section>
 

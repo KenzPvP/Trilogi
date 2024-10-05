@@ -24,47 +24,25 @@
         </div>
     </section>
 
-    <!-- Catalog Section -->
     <section class="max-w-7xl mx-auto py-8 ">
         <div class="flex flex-col md:flex-row">
             <!-- Product Image -->
             <div class="md:w-1/2">
-                <img class="w-full h-auto object-cover rounded-lg" src="/contoh1.png" alt="Product Image">
+                <img class="w-full h-auto object-cover rounded-lg" src="{{ asset('storage/' . $data->image) }}" alt="{{ $data->name }}">
             </div>
-
+    
             <!-- Product Info -->
             <div class="md:w-1/2 md:ml-8 mt-8 md:mt-0">
-                <h2 class="text-3xl font-semibold text-gray-50">CASHQUIP HL-3300</h2>
-                <p class="text-gray-300 mt-2">
-                    3.950.000 
-                </p>
-
+                <h2 class="text-3xl font-semibold text-gray-50">{{ $data->name }}</h2>
+    
                 <div class="mt-4">
-                    <h3 class="text-lg font-semibold text-gray-800">Description</h3>
-                    <p class="text-gray-300 mt-2">
-                        UV and Magnetic
-                        Authentication Control
-                        Advance Stacker
-                        Informative LCD Display
-                        Friction Technology
-                    </p>
-                </div>
-
-                <div class="mt-4">
-                    <h3 class="text-lg font-semibold text-gray-800">Specifications</h3>
-                    <ul class="list-disc list-inside text-gray-300 mt-2">
-                        <li>Feature 1: Details about feature 1</li>
-                        <li>Feature 2: Details about feature 2</li>
-                        <li>Feature 3: Details about feature 3</li>
-                    </ul>
-                </div>
-
-                <div class="mt-6">
-                    <button class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-500">Add to Cart</button>
+                    <h3 class="text-lg font-semibold text-gray-300">Description</h3>
+                    <p class="text-gray-300 mt-2">{{ $data->description }}</p>
                 </div>
             </div>
         </div>
     </section>
+    
 
     <!-- Footer -->
     <footer id="contact" class="bg-neutral-950 text-gray-300 py-10">

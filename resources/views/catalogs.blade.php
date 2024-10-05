@@ -14,8 +14,16 @@
 
     <main>
         @include('modals.navbar')
-        @include('Catalog.catalogs_page')
-        @include('Catalog.catalogs2_page')
+
+        <!-- Include catalogs_page dan kirim data dari $dataForPage1 -->
+        @include('Catalog.catalogs_page', ['data' => $dataForPage1])
+
+        <!-- Include catalogs2_page dan kirim data dari $dataForPage2 -->
+        @include('Catalog.catalogs2_page', ['data' => $dataForPage2])
+
+        <!-- Include catalogs3_page dan kirim data dari $dataForPage3 -->
+        @include('Catalog.catalogs3_page', ['data' => $dataForPage3])
+
         @include('sections.footer_section')
     </main>
 
