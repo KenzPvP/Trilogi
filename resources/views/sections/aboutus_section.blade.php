@@ -6,23 +6,18 @@
             Tentang kami
         </h2>
         <p data-aos="fade-right" class="text-gray-400 text-start">
-            Di Trilogi, kami adalah spesialis IT yang bisa
-            membantu menjaga sistem kerja Anda
-            berjalan, apa pun bidang pekerjaan Anda.
-            Kami tahu segalanya tentang komputer,
-            jaringan, telekomunikasi, server,
-            database, intranet, dan perangkat lunak. Jika
-            kamu punya masalah, kamilah teman-temannya
-            Anda perlu menelepon karena kami punya
-            solusi sempurna.
+            PT Trilogi Global Inovasi adalah perusahaan yang bergerak di bidang IT , menyediakan layanan, solusi, serta
+            produk teknologi informasi yang inovatif. Kami menawarkan layanan terintegrasi dan didukung oleh tim
+            professional serta bersertifikasi.
+            Kami memberikan perhatian penuh terhadap kebutuhan klien, mengedepankan inovasi dan memberikan kebebasan
+            dalam pengembangan bisnis mereka di masa mendatang melalui teknologi.
         </p>
     </div>
 
 
-    <div data-aos="fade-up" class="flex flex-col md:flex-row gap-4 lg:gap-32 md:p-0 p-12 mt-6 md:mt-10 h-full">
+    <div data-aos="fade-up" class="flex flex-col md:flex-col gap-4 lg:gap-10 h-full">
         <!-- Visi Section -->
-        <div
-            class="flex flex-col gap-7 items-start justify-start text-center p-4 md:p-6 transition-all transform hover:scale-[1.02] w-full md:w-1/2">
+        <div class="flex flex-row gap-7 items-start justify-start text-center p-4 md:p-6  w-full">
             <div class="flex flex-col justify-start items-start">
                 <div class="flex items-start md:justify-start md:mb-2">
                     <h2 class="text-lg md:text-2xl font-semibold text-white font-raleway">Moto :</h2>
@@ -43,64 +38,86 @@
                 </p>
             </div>
 
-            <div class="flex flex-col justify-start items-start">
-                <div class="flex items-start justify-start mb-4 md:mb-2">
-                    <h2 class="text-lg md:text-2xl font-semibold text-white font-raleway">Misi :</h2>
-                </div>
 
-                <!-- Misi list -->
-                <div class="flex flex-col justify-center gap-3 items-start p-2 md:p-5">
-                    <div class="flex flex-row justify-start items-center gap-3">
-                        <span
-                            class="bg-yellow-500 shrink-0 text-white rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center font-bold">1</span>
-                        <h4 class="text-white font-semibold">Menyediakan solusi terdepan</h4>
-                    </div>
-                    <p class="text-gray-400 text-start md:px-12">
-                        Mengembangkan dan menyediakan solusi IT yang berkualitas untuk mendukung pertumbuhan bisnis
-                        pelanggan
-                    </p>
-                </div>
-
-                <div class="flex flex-col justify-center gap-3 items-start p-2 md:p-5">
-                    <div class="flex flex-row justify-start items-center gap-3">
-                        <span
-                            class="bg-yellow-500 shrink-0 text-white rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center font-bold">2</span>
-                        <h4 class="text-white font-semibold">Mendorong Inovasi</h4>
-                    </div>
-                    <p class="text-gray-400 text-start md:px-12">
-                        Berkomitmen terus berinovasi dan beradaptasi dengan teknologi terbaru untuk memberikan kebebasan
-                        bisnis pelanggan
-                    </p>
-                </div>
-
-                <div class="flex flex-col justify-center gap-3 items-start p-2 md:p-5">
-                    <div class="flex flex-row justify-start items-center gap-3">
-                        <span
-                            class="bg-yellow-500 shrink-0 text-white rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center font-bold">3</span>
-                        <h4 class="text-white font-semibold">Fokus pada pelanggan</h4>
-                    </div>
-                    <p class="text-gray-400 text-start md:px-12">
-                        Memberikan layanan unggul dengan pendekatan personal dan solusi optimal
-                    </p>
-                </div>
-
-                <div class="flex flex-col justify-center gap-3 items-start p-2 md:p-5">
-                    <div class="flex flex-row justify-start items-center gap-3">
-                        <span
-                            class="bg-yellow-500 shrink-0 text-white rounded-full w-8 h-8 md:w-10 md:h-10 flex items-center justify-center font-bold">4</span>
-                        <h4 class="text-white font-semibold">Membangun tim berkualitas</h4>
-                    </div>
-                    <p class="text-gray-400 text-start md:px-12">
-                        Menciptakan lingkungan kerja yang positif dan mendukung untuk mencapai kinerja terbaik dalam
-                        layanan
-                    </p>
-                </div>
-            </div>
         </div>
 
-        <!-- Image Section -->
-        <div class="flex flex-col justify-center items-center w-full md:w-9/12 h-auto md:h-5/6 mt-4 md:mt-0">
-            <img src="/teams.png" class="w-full md:w-9/12 h-auto object-cover mx-auto" alt="...">
+        <div class="mt-10 md:p-5 p-10">
+            <p class="text-lg md:text-2xl font-semibold text-white font-raleway">Misi:</p>
+
+            <div class="mt-6 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-x-8">
+                <!-- Misi 1 -->
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-yellow-500 text-gray-50 font-semibold">
+                            1
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg leading-6 font-medium text-[#f9f4ca]">
+                            Menyediakan solusi terdepan
+                        </h3>
+                        <p class="mt-2 text-base text-white">
+                            Mengembangkan dan menyediakan solusi IT yang berkualitas untuk mendukung pertumbuhan bisnis pelanggan
+
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Misi 2 -->
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-yellow-500 text-gray-50 font-semibold">
+                            2
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg leading-6 font-medium text-[#f9f4ca]">
+                            Mendorong Inovasi
+                        </h3>
+                        <p class="mt-2 text-base text-white">
+                            Berkomitmen terus berinovasi dan beradaptasi dengan teknologi terbaru untuk memberikan kebebasan bisnis pelanggan
+
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Misi 3 -->
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-yellow-500 text-gray-50 font-semibold">
+                            3
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg leading-6 font-medium text-[#f9f4ca]">
+                            Fokus pada pelanggan
+                        </h3>
+                        <p class="mt-2 text-base text-white">
+                            Memberikan layanan unggul dengan pendekatan personal dan solusi optimal
+
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Misi 4 -->
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-full bg-yellow-500 text-gray-50 font-semibold">
+                            4
+                        </div>
+                    </div>
+                    <div class="ml-4">
+                        <h3 class="text-lg leading-6 font-medium text-[#f9f4ca]">
+                            Membangun tim berkualitas
+                        </h3>
+                        <p class="mt-2 text-base text-white">
+                            Menciptakan lingkungan kerja yang positif dan mendukung untuk mencapai kinerja terbaik dalam layanan
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
@@ -115,15 +132,9 @@
                 </div>
 
                 <!-- Right Text Section -->
-                <div class="w-full md:w-1/2 text-white">
-                    <h2 class="text-2xl md:text-3xl font-bold mb-4">Tentang Kami</h2>
-                    <p class="text-gray-300 mb-6">
-                        PT Trilogi Global Inovasi adalah perusahaan teknologi terkemuka yang berdedikasi untuk
-                        menghadirkan
-                        solusi inovatif di bidang IT. Kami berkomitmen untuk mempercepat transformasi digital dan
-                        mendorong
-                        kemajuan bisnis pelanggan melalui teknologi yang berkelanjutan.
-                    </p>
+                <div class="w-full flex flex-col md:w-1/2 gap-16 text-white">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-4">poin-poin</h2>
+
                     <div class="grid grid-cols-2 gap-4">
                         <div class="flex items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24">
