@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CatalogController;
 
 Route::get('/', function () {
     return view('index');
@@ -23,3 +24,7 @@ Route::get('/catalogs2', function () {
 Route::get('/catalogs1', function () {
     return view('Catalog.catalogs_page');
 });
+
+
+
+Route::get('/download-catalog', [CatalogController::class, 'download'])->name('catalog.download');

@@ -141,7 +141,7 @@
                                         Layanan kami yang akan mendukung operasional BPR maupun
                                         koperasi
                                     </p>
-                                    <a href="/catalogs1" class="relative flex h-[40px] w-full items-center justify-center overflow-hidden bg-yellow-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-yellow-600 hover:shadow-yellow-600 hover:before:border-[25px] rounded-xl">
+                                    <a href="{{ route('catalog.download') }}" class="relative flex h-[40px] w-full items-center justify-center overflow-hidden bg-yellow-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-yellow-600 hover:shadow-yellow-600 hover:before:border-[25px] rounded-xl">
                                         <span class="relative z-10">download catalog</span>
                                     </a>
                                 </div>
