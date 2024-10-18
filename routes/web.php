@@ -12,18 +12,10 @@ Route::get('/trilogi', function () {
 Route::get('/contact', function () {
     return view('sections.contact_section');
 });
-Route::get('/catalog', function () {
-    return view('Catalog.catalog_page');
+Route::get('/comingsoon', function () {
+    return view('components.comingsoon_page');
 });
-Route::get('/catalogs', function () {
-    return view('catalogs');
-});
-Route::get('/catalogs2', function () {
-    return view('Catalog.catalogs2_page');
-});
-Route::get('/catalogs1', function () {
-    return view('Catalog.catalogs_page');
-});
+
 
 
 

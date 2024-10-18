@@ -27,15 +27,7 @@
             <li><a href="/#aboutus"
                     class="text-white tracking-wide font-medium transition-colors hover:text-gold">Tentang kami</a></li>
 
-            <!-- Dropdown Menu for Catalog -->
-            <li class="relative group">
-                <a href="/catalogs" class="text-white tracking-wide font-medium transition-colors hover:text-gold">Catalog</a>
-                <ul class="absolute left-0 mt-2 w-48 bg-zinc-800 rounded-md opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300">
-                    <li><a href="/catalogs1" class="block px-4 py-2 text-white hover:bg-zinc-700 hover:text-gold">Catalog 1</a></li>
-                    <li><a href="/catalogs2" class="block px-4 py-2 text-white hover:bg-zinc-700 hover:text-gold">Catalog 2</a></li>
-                    <li><a href="#catalog3" class="block px-4 py-2 text-white hover:bg-zinc-700 hover:text-gold">Catalog 3</a></li>
-                </ul>
-            </li>
+
         </ul>
 
         <a href="contact" class="hidden lg:block w-fit rounded-lg px-10 py-4 bg-gold hover:bg-yellow-600 font-semibold">
