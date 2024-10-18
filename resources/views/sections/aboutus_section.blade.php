@@ -132,7 +132,7 @@
                 </div>
 
                 <!-- Right Text Section -->
-                <div class="w-full flex flex-col md:w-1/2 gap-16 text-white">
+                <div class="w-full flex flex-col md:w-1/2 gap-5 text-white">
                     <h2 class="text-2xl md:text-3xl font-bold mb-4">poin-poin</h2>
 
                     <div class="grid grid-cols-2 gap-4">

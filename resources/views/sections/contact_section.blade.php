@@ -30,7 +30,7 @@
                                 data-original="#000000" />
                         </svg>
                         <a href="javascript:void(0)" class="text-white text-sm ml-4">
-                            info@example.com
+                            info@trilogiglobal.co.id
                         </a>
                     </li>
                     <li class="flex items-center">
