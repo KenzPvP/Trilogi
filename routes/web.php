@@ -19,4 +19,6 @@ Route::get('/comingsoon', function () {
 
 
 
-Route::get('/download-catalog', [CatalogController::class, 'download'])->name('catalog.download');
+Route::get('/download-catalog', [CatalogController::class, 'downloadCatalog1'])->name('catalog.download.catalog1');
+Route::get('/download-poster-mirko', [CatalogController::class, 'downloadCatalog2'])->name('catalog.download.catalog2');
+

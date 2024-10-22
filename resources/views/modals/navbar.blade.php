@@ -37,7 +37,7 @@
 
     <!-- Drawer Menu (hidden by default) -->
     <div id="menu"
-        class="hidden lg:hidden bg-black bg-opacity-90 fixed inset-0 z-30 flex flex-col items-center justify-center space-y-8">
+        class="hidden lg:hidden bg-black bg-opacity-90 h-screen fixed inset-0 z-30 flex flex-col items-center justify-center space-y-8">
         <a href="#home" class="text-white text-xl hover:text-gold">Beranda</a>
         <a href="#aboutus" class="text-white text-xl hover:text-gold">Tentang kami</a>
         <a href="#services" class="text-white text-xl hover:text-gold">Produk & layanan</a>

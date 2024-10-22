@@ -2,7 +2,7 @@
     {{-- services --}}
     <section id="services" class="flex h-full">
         <div class="container gap-7">
-            <div class="flex-flex-col gap-6 p-20">
+            <div class="flex-flex-col gap-6 p-0 md:p-20">
                 <div data-aos="fade-down" class="flex flex-col gap-3 justify-center items-center">
                     <h2
                         class="text-2xl text-center md:text-4xl font-lora font-medium tracking-wider text-white transition-all">
@@ -57,7 +57,7 @@
                                 <div class="flex flex-col gap-2">
                                     <div class="flex items-center gap-3">
                                         <span
-                                            class="bg-yellow-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+                                            class="bg-yellow-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold ">
                                             1
                                         </span>
                                         <h4 class="text-white font-semibold">IT Infrastruktur</h4>
@@ -67,7 +67,7 @@
                                         mengembangkan, mengamankan, dan mengintegrasikan
                                         infrastruktur IT antara lain LAN, fiber optic, server, router dll.
                                     </p>
-                                    <a href="/comingsoon" class="relative flex h-[40px] w-full items-center justify-center overflow-hidden bg-yellow-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-yellow-600 hover:shadow-yellow-600 hover:before:border-[25px] rounded-xl">
+                                    <a href="{{ route('catalog.download.catalog1') }}" class="relative flex h-[40px] w-full items-center justify-center overflow-hidden bg-yellow-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-yellow-600 hover:shadow-yellow-600 hover:before:border-[25px] rounded-xl">
                                         <span class="relative z-10">download catalog</span>
                                     </a>
 
@@ -87,7 +87,7 @@
                                         sistem teknologi informasi (infrastruktur, jaringan, keamanan, dan
                                         aplikasi) milik pelanggan.
                                     </p>
-                                    <a href="/comingsoon" class="relative flex h-[40px] w-full items-center justify-center overflow-hidden bg-yellow-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-yellow-600 hover:shadow-yellow-600 hover:before:border-[25px] rounded-xl">
+                                    <a href="{{ route('catalog.download.catalog2') }}" class="relative flex h-[40px] w-full items-center justify-center overflow-hidden bg-yellow-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-yellow-600 hover:shadow-yellow-600 hover:before:border-[25px] rounded-xl">
                                         <span class="relative z-10">download catalog</span>
                                     </a>
 
@@ -159,7 +159,7 @@
                                         Layanan kami yang akan mendukung operasional maupun
                                         pelaporan yang dibutuhkan oleh BPR
                                     </p>
-                                    <a href="/catalogs2" class="relative flex h-[40px] w-full items-center justify-center overflow-hidden bg-yellow-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-yellow-600 hover:shadow-yellow-600 hover:before:border-[25px] rounded-xl">
+                                    <a href="/comingsoon" class="relative flex h-[40px] w-full items-center justify-center overflow-hidden bg-yellow-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-yellow-600 hover:shadow-yellow-600 hover:before:border-[25px] rounded-xl">
                                         <span class="relative z-10">download catalog</span>
                                     </a>
                                 </div>
@@ -178,7 +178,7 @@
                                         diimplementasikan sebagai solusi mandiri atau terintegrasi dengan
                                         system perbankan
                                     </p>
-                                    <a href="/catalog" class="relative flex h-[40px] w-full items-center justify-center overflow-hidden bg-yellow-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-yellow-600 hover:shadow-yellow-600 hover:before:border-[25px] rounded-xl">
+                                    <a href="/comingsoon" class="relative flex h-[40px] w-full items-center justify-center overflow-hidden bg-yellow-600 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-yellow-600 hover:shadow-yellow-600 hover:before:border-[25px] rounded-xl">
                                         <span class="relative z-10">download catalog</span>
                                     </a>
                                 </div>
